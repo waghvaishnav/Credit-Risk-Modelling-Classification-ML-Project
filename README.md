@@ -27,12 +27,18 @@ Banks face losses due to customer loan defaults. This project predicts whether a
 
 ## 📊 Dataset
 The dataset contains customer credit information such as:
-
-- Credit utilization ratio
-- Delinquent months
-- Total DPD (days past due)
-- Enquiry count
-- Income & repayment behavior
+- age
+- income
+- loan_amount
+- loan_to_income_ratio
+- loan_tenure(momnths)
+- avg_dpd
+- deliquency_ratio
+- credit_utilization_ratio
+- open_loan_amount
+- residence_type
+- loan_purpose
+- loan_type
 
 Target variable:
 - Default / Non-default
@@ -42,7 +48,7 @@ Target variable:
 ## ⚙️ Project Workflow
 1. Data cleaning & preprocessing
 2. Exploratory data analysis (EDA)
-3. Feature engineering
+3. Feature engineering(weight of evaluation / information value)
 4. Model training (Logistic Regression / XGBoost)
 5. Model evaluation (ROC-AUC, KS, Gini)
 6. Model serialization
@@ -51,20 +57,10 @@ Target variable:
 ---
 
 ## 📈 Model Performance
-- ROC-AUC: XX%
-- KS Score: XX
-- Gini Score: XX
+- ROC-AUC: 98 %
 
-(The model shows strong ranking ability in separating risky customers.)
-
----
 
 ## 🚀 Deployment
 The trained model is deployed using Streamlit.
 
-Run locally:
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
 
