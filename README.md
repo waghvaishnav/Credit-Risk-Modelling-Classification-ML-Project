@@ -3,7 +3,7 @@ Developed a machine learning model to predict loan default risk using financial 
 
 # Credit Risk Modeling Project
 
-![Screenshot 2026-04-27 180354.png)
+![Credit Risk Model](https://github.com/waghvaishnav/Credit-Risk-Modelling-Classification-ML-Project/blob/4d2a9a12706524146e40009b63b3d216f5171837/Screenshot%202026-04-27%20180354.png?raw=true)
 
 ## 📌 Overview
 This project builds a machine learning model to predict credit default risk using historical customer financial data. The goal is to help financial institutions identify high-risk applicants and improve lending decisions.
