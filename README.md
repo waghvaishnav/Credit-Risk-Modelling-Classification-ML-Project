@@ -3,6 +3,8 @@ Developed a machine learning model to predict loan default risk using financial 
 
 # Credit Risk Modeling Project
 
+![Screenshot 2026-04-27 180354.png)
+
 ## 📌 Overview
 This project builds a machine learning model to predict credit default risk using historical customer financial data. The goal is to help financial institutions identify high-risk applicants and improve lending decisions.
 
